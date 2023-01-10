@@ -1,0 +1,17 @@
+SOAP is a protocol. so it follows its standard. It allows to communicate between client and server.
+It uses only XML document for exchanging information between client and server.
+It strictly takes XML as input file and XML as output file.
+//
+//
+For REST API we can use Java Classes as well as Plaintext for exchainging information between client and server.
+//
+//
+Soap is now mostly used for getting services from third party soap apis. For getting services from these apis, 
+REST API needs to use these auto generated Soap java classes.
+//
+//
+Simple Object Access Protocol(SOAP) is another type of API similar to REST api.
+For soap api we have to generate Java Classes like request, responses, other dependent using XSD file.
+
+First we have to create XSD file with all Class names and what all values included in Each Class.
+After that these classes are used for creating API.

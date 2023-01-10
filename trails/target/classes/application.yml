@@ -1,0 +1,22 @@
+server:
+  port: 1456
+  servlet:
+    context path: /trails/v1
+
+spring:
+  mvc:
+    path match:
+      matching-strategy: ant-path-matcher
+
+
+app:
+  name: spring boot application
+  api:
+    title: Spring Boot APIs
+    version: 1.0.0
+    description: Spring Boot APIs description
+    base-package: com.sample.trails
+    contact-name: apisupportgroup
+    contact-email: apisupportgroup@abc.com
+    swagger:
+      enable: true
